@@ -1,0 +1,3 @@
+name1 = input("Please type your first name:")
+name2 = input("Please type your surname: ")
+print(name1,name2)
