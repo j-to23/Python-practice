@@ -1,0 +1,7 @@
+max = int(input("Stop squaring after going over: "))    #User input maximum square value
+a = 0           #a is our squared value
+i = 0           #i is our loop iteration and original number
+while a<max:   #a = loop
+    i = i+1        #i increase for loop
+    a = int(i**2)       #a = squared value of i
+    print('Number:',i,'- Squared value:',a)
