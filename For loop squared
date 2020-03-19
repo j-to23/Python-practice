@@ -1,4 +1,4 @@
-max = int(input("Stop squaring after going over: "))    #User input paximum square value
+max = int(input("Stop squaring after going over: "))    #User input maximum square value
 
 for a in range (100):   #a = loop
     b = int(a+1)        #b = iteration number
