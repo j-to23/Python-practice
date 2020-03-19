@@ -1,0 +1,8 @@
+max = int(input("Stop squaring after going over: "))    #User input paximum square value
+
+for a in range (100):   #a = loop
+    b = int(a+1)        #b = iteration number
+    c = int(b**2)       #c = squared value
+    print('Iteration: ',a+1,' - Squared value: ',c)
+    if c>max:           #stop loop at user defined value
+        break
